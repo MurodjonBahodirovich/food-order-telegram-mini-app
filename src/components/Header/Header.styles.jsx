@@ -6,7 +6,7 @@ export const HeaderContainer = styled.div`
   background: #003bff;
   backdrop-filter: blur(1rem);
   border-bottom: 1px solid #a3a3a3;
-  box-shadow: 0 -3px 20px #fff;
+  box-shadow: 0 -3px 10px #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;

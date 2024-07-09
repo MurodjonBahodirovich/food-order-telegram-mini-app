@@ -7,6 +7,125 @@
       "last_name": "Halilov",
       "username": "MurodjonHalilov",
       "language_code": "en"
+    },
+    {
+      "id": 1381672171,
+      "is_bot": false,
+      "first_name": "Murodjon",
+      "last_name": "Halilov",
+      "username": "MurodjonHalilov",
+      "language_code": "en"
+    },
+    {
+      "id": 1381672171,
+      "is_bot": false,
+      "first_name": "Murodjon",
+      "last_name": "Halilov",
+      "username": "MurodjonHalilov",
+      "language_code": "en"
+    },
+    {
+      "id": 1381672171,
+      "is_bot": false,
+      "first_name": "Murodjon",
+      "last_name": "Halilov",
+      "username": "MurodjonHalilov",
+      "language_code": "en"
+    },
+    {
+      "id": 1381672171,
+      "is_bot": false,
+      "first_name": "Murodjon",
+      "last_name": "Halilov",
+      "username": "MurodjonHalilov",
+      "language_code": "en"
+    },
+    {
+      "id": 1381672171,
+      "is_bot": false,
+      "first_name": "Murodjon",
+      "last_name": "Halilov",
+      "username": "MurodjonHalilov",
+      "language_code": "en"
+    },
+    {
+      "id": 6669728441,
+      "is_bot": false,
+      "first_name": "Murodjon Halilov",
+      "username": "MurodjonXalilov",
+      "language_code": "en"
+    },
+    {
+      "id": 1381672171,
+      "is_bot": false,
+      "first_name": "Murodjon",
+      "last_name": "Halilov",
+      "username": "MurodjonHalilov",
+      "language_code": "en"
+    },
+    {
+      "id": 1381672171,
+      "is_bot": false,
+      "first_name": "Murodjon",
+      "last_name": "Halilov",
+      "username": "MurodjonHalilov",
+      "language_code": "en"
+    },
+    {
+      "id": 6669728441,
+      "is_bot": false,
+      "first_name": "Murodjon Halilov",
+      "username": "MurodjonXalilov",
+      "language_code": "en"
+    },
+    {
+      "id": 1381672171,
+      "is_bot": false,
+      "first_name": "Murodjon",
+      "last_name": "Halilov",
+      "username": "MurodjonHalilov",
+      "language_code": "en"
+    }
+  ],
+  "products": [
+    {
+      "category_name": "Ichimliklar",
+      "category_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGyZmplgDhb1_bZHcA1BPbaJmWQktNK3JuSg&s",
+      "data": [
+        {
+          "product_name": "Coca Cola 1.5 L",
+          "product_price": 18000,
+          "product_image": "https://www.freeiconspng.com/thumbs/coca-cola-png/bottle-coca-cola-png-transparent-2.png"
+        },
+        {
+          "product_name": "Pepsi 1.5 L",
+          "product_price": 20000,
+          "product_image": "https://www.pngitem.com/pimgs/m/274-2741567_pepsi-bottle-png-pepsi-max-1-5-l-transparent.png"
+        }
+      ],
+      "id": "6013"
+    },
+    {
+      "category_name": "Fast Food",
+      "category_image": "https://icon2.cleanpng.com/20231121/xgt/transparent-french-fries-fast-food-meal-with-various-food-items-and-1710990279343.webp",
+      "data": [
+        {
+          "product_name": "Hot Dog",
+          "product_price": 15000,
+          "product_image": "https://img.freepik.com/free-photo/classic-hot-dog-with-ketchup-mustard-sauce-isolated-white-background_123827-29747.jpg"
+        },
+        {
+          "product_name": "Lavash",
+          "product_price": 25000,
+          "product_image": "https://icon2.cleanpng.com/20180509/row/kisspng-shawarma-chicken-lavash-doner-kebab-pizza-5af2f4b80977f8.5733157915258718000388.jpg"
+        },
+        {
+          "product_name": "Shavurma",
+          "product_price": 30000,
+          "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Z6oZ0v54eZZJkoe_QVfJOpZcYUFWcd96VtuIqkpiinesx_fProJGghN73Bqq75LJC6k&usqp=CAU"
+        }
+      ],
+      "id": "4443"
     }
   ]
 }
