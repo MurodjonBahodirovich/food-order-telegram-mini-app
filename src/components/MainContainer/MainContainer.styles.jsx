@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const MainPageContainer = styled.div`
   width: 100%;
-  height: 95%;
+  height: 92%;
   background: #00071f;
   overflow-y: scroll;
   border-radius: 35px 35px 0 0;
