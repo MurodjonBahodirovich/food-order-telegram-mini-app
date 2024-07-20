@@ -3,7 +3,16 @@ import Header from "../../components/Header/Header";
 import MainContainer from "../../components/MainContainer/MainContainer";
 
 const MainPage = () => {
-  const [userData, setUserData] = useState(null);
+  const [userData, setUserData] = useState([
+    {
+      id: 1381672171,
+      is_bot: false,
+      first_name: "Murodjon",
+      last_name: "Halilov",
+      username: "MurodjonHalilov",
+      language_code: "en",
+    },
+  ]);
 
   useEffect(() => {
     fetch(`http://localhost:8000/usersData`, { method: "GET" })
