@@ -1,5 +1,4 @@
 const TelegramBot = require("node-telegram-bot-api");
-const fs = require("fs");
 
 const web_link = "https://food-order-telegram-mini-app.vercel.app/";
 
@@ -14,7 +13,7 @@ bot.setMyCommands([
 ]);
 
 bot.on("message", (msg) => {
-  const text = msg.text;
+  // const text = msg.text;
   const chatId = msg.chat.id;
   const { from } = msg;
 
@@ -33,15 +32,13 @@ bot.on("message", (msg) => {
       console.error(error);
     });
 
-  const webAppUrlWithChatId = `${web_link}?chatId=${chatId}`;
-
   bot.sendMessage(
     chatId,
     `Assalomu aleykum ${from?.first_name}! Siz Koson tumanidagi yegulik buyurtma berish uchun mo'ljallangan botga tashrif buyurdingiz. Buyurtma berish uchun pastdagi tugmani bosing 👇👇👇`,
     {
       reply_markup: {
         inline_keyboard: [
-          [{ text: "Buyurtma berish", web_app: { url: webAppUrlWithChatId } }],
+          [{ text: "Buyurtma berish", web_app: { url: web_link } }],
         ],
       },
     }
