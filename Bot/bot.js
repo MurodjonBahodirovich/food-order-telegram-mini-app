@@ -1,6 +1,6 @@
 const TelegramBot = require("node-telegram-bot-api");
 
-const web_link = "https://food-order-telegram-mini-app.vercel.app/";
+const web_link = "https://telegram-mini-app-sage.vercel.app/";
 
 const TOKEN = `7326313370:AAGwezKqxkPHB41zOrEaiEsK60q01ZQMi5o`;
 const bot = new TelegramBot(TOKEN, { polling: true });
