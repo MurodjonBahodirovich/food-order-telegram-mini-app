@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Header from "../../components/Header/Header";
 import MainContainer from "../../components/MainContainer/MainContainer";
+import Navigation from "../../components/Navigation/Navigation";
 
 const MainPage = () => {
   const [userData, setUserData] = useState({
@@ -21,12 +22,13 @@ const MainPage = () => {
   return (
     <>
       {userData ? (
-        <div style={{ width: "100%", height: "100vh" }}>
+        <div style={{ width: "100%", height: "100vh", position: "relative" }}>
           <Header userData={userData} />
           <MainContainer />
+          <Navigation />
         </div>
       ) : (
-        <h1>Loading...</h1>
+        <h1 color="#fff">Loading...</h1>
       )}
     </>
   );
