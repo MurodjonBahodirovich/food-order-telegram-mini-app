@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   GiftCardMainContainer,
   GiftCardSubContainer,
@@ -7,9 +7,11 @@ import {
   GiftPrice,
 } from "./GiftCard.styles";
 import winGoldCoin from "../../assets/images/gold-coins.png";
+import { FaLock } from "react-icons/fa";
 
 const GiftCard = ({ cardData }) => {
   const { cardImage, giftQuantity, cardPrice } = cardData;
+  const [isBlock, setIsBlock] = useState(true);
 
   const formatNumber = (num) => {
     if (num >= 1000000000) {
@@ -24,7 +26,7 @@ const GiftCard = ({ cardData }) => {
 
   return (
     <>
-      <GiftCardMainContainer>
+      <GiftCardMainContainer isblock={isBlock} lockIcon={<FaLock />}>
         <GiftCardSubContainer>
           <GiftImageBox src={cardImage} alt={giftQuantity} />
           <GiftName>{giftQuantity.toLocaleString()} so'm</GiftName>
