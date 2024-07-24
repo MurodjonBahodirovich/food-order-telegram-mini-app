@@ -9,7 +9,7 @@ import {
 import winGoldCoin from "../../assets/images/gold-coins.png";
 
 const GiftCard = ({ cardData }) => {
-  const { cardImage, cardName, cardPrice } = cardData;
+  const { cardImage, giftQuantity, cardPrice } = cardData;
 
   const formatNumber = (num) => {
     if (num >= 1000000000) {
@@ -26,8 +26,8 @@ const GiftCard = ({ cardData }) => {
     <>
       <GiftCardMainContainer>
         <GiftCardSubContainer>
-          <GiftImageBox src={cardImage} alt={cardName} />
-          <GiftName>{cardName}</GiftName>
+          <GiftImageBox src={cardImage} alt={giftQuantity} />
+          <GiftName>{giftQuantity.toLocaleString()} so'm</GiftName>
           <div
             style={{
               display: "flex",

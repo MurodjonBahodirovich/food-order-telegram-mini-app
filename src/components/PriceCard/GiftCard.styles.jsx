@@ -31,8 +31,10 @@ export const GiftImageBox = styled.img`
 `;
 
 export const GiftName = styled.p`
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
   color: #fff;
+  text-align: center;
 `;
 
 export const GiftPrice = styled.p`

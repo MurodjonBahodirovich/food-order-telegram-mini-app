@@ -46,7 +46,7 @@ export const FooterButtonIcon = styled.div`
   width: 100%;
   height: 50%;
   font-size: 3rem;
-  color: #f2f6c6;
+  color: #d28d39;
 `;
 
 export const FooterButtonName = styled.p`

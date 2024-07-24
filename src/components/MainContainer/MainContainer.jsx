@@ -23,21 +23,21 @@ const MainContainer = () => {
       id: 1,
       cardImage:
         "https://www.pngall.com/wp-content/uploads/4/Gold-Coin-PNG-HD-Image.png",
-      cardName: "10.000 so'm",
+      giftQuantity: 10000,
       cardPrice: 12000000,
     },
     {
       id: 2,
       cardImage:
         "https://png.pngtree.com/png-vector/20240718/ourmid/pngtree-money-bag-with-gold-coins-spilling-out-png-image_13127598.png",
-      cardName: "25.000 so'm",
+      giftQuantity: 25000,
       cardPrice: 30000000,
     },
     {
       id: 3,
       cardImage:
         "https://png.pngtree.com/png-vector/20240629/ourmid/pngtree-sack-of-gold-coins-and-cash-notes-png-image_12920392.png",
-      cardName: "50.000 so'm",
+      giftQuantity: 50000,
       cardPrice: 63000000,
     },
   ];
