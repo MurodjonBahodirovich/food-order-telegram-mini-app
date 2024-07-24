@@ -6,6 +6,11 @@ export const GiftCardMainContainer = styled.div`
   background: linear-gradient(to bottom, #0b9f1c, #2c2f33);
   border-radius: 10px;
   padding: 0.2rem 0.1rem 0 0.1rem;
+  transition: all 0.1s ease-in-out;
+
+  &:active {
+    transform: scale(0.97);
+  }
 `;
 
 export const GiftCardSubContainer = styled.div`
@@ -31,7 +36,7 @@ export const GiftName = styled.p`
 `;
 
 export const GiftPrice = styled.p`
-    font-size: 1rem;
-    color: #ccc;
-    margin-left: .5rem;
-`
+  font-size: 1rem;
+  color: #ccc;
+  margin-left: 0.5rem;
+`;
