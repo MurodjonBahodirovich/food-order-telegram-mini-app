@@ -14,7 +14,9 @@ const Header = ({ userData }) => {
       <HeaderContainer>
         <div style={{ display: "flex", alignItems: "center" }}>
           <HeaderTaxiLogo src={taxiLogo} alt="taxi logo" />
-          <UserFullName>{`${userData?.first_name} ${userData?.last_name}`}</UserFullName>
+          <UserFullName>{`${userData?.first_name} ${
+            userData?.last_name !== undefined ? userData?.last_name : ""
+          }`}</UserFullName>
         </div>
 
         <SettingsBtnBox>

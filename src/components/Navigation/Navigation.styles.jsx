@@ -22,11 +22,13 @@ export const FooterContainer = styled.div`
   bottom: 1.5rem;
 
   transform: translate(-50%);
+
+  z-index: 9999;
 `;
 
 export const FooterButton = styled.button`
-  width: 23%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
   padding: 0.3rem;
   background: #3939395f;
   border: none;

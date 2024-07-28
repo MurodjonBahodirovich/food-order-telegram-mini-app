@@ -23,7 +23,7 @@ export const GiftCardMainContainer = styled.div`
     text-align: center;
     border-radius: 10px;
     font-size: 4rem;
-    display: ${({ isblock }) => (isblock ? "block" : "none")};
+    display: ${({ isblock }) => (isblock === "true" ? "block" : "none")};
     text-shadow: 0 0 10px rgb(255, 0, 0);
 
     position: absolute;

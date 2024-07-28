@@ -7,7 +7,6 @@ import {
   GiftPrice,
 } from "./GiftCard.styles";
 import winGoldCoin from "../../assets/images/gold-coins.png";
-import { FaLock } from "react-icons/fa";
 
 const GiftCard = ({ cardData }) => {
   const { cardImage, giftQuantity, cardPrice } = cardData;
@@ -26,7 +25,7 @@ const GiftCard = ({ cardData }) => {
 
   return (
     <>
-      <GiftCardMainContainer isblock={isBlock} lockIcon={<FaLock />}>
+      <GiftCardMainContainer isblock={isBlock.toString()}>
         <GiftCardSubContainer>
           <GiftImageBox src={cardImage} alt={giftQuantity} />
           <GiftName>{giftQuantity.toLocaleString()} so'm</GiftName>

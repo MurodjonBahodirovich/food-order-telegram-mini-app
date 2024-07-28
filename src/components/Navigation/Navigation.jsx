@@ -5,12 +5,8 @@ import {
   FooterButtonName,
   FooterContainer,
 } from "./Navigation.styles";
-import { Outlet } from "react-router-dom";
-import {
-  FaHome,
-  FaCartPlus,
-  FaShoppingBasket,
-} from "react-icons/fa";
+import { Link, Outlet } from "react-router-dom";
+import { FaHome, FaCartPlus, FaShoppingBasket } from "react-icons/fa";
 import { IoPersonCircleSharp } from "react-icons/io5";
 
 const Navigation = () => {
@@ -24,8 +20,8 @@ const Navigation = () => {
     {
       id: 2,
       btnIcon: <FaCartPlus />,
-      btnName: "Buyurtma berish",
-      btnLink: "/order",
+      btnName: "Buyurtma",
+      btnLink: "/order-page",
     },
     {
       id: 3,
@@ -46,10 +42,16 @@ const Navigation = () => {
       <Outlet />
       <FooterContainer>
         {navigationBtns.map((btn) => (
-          <FooterButton key={btn.id}>
-            <FooterButtonIcon>{btn.btnIcon}</FooterButtonIcon>
-            <FooterButtonName>{btn.btnName}</FooterButtonName>
-          </FooterButton>
+          <Link
+            key={btn.id}
+            to={btn.btnLink}
+            style={{ width: "23%", height: "90%" }}
+          >
+            <FooterButton>
+              <FooterButtonIcon>{btn.btnIcon}</FooterButtonIcon>
+              <FooterButtonName>{btn.btnName}</FooterButtonName>
+            </FooterButton>
+          </Link>
         ))}
       </FooterContainer>
     </>
